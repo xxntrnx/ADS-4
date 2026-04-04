@@ -43,6 +43,8 @@ int countPairs2(int* arr, int len, int value) {
         } else {
             right--;
         }
+        for (int delay = 0; delay < 100; delay++) {
+        }
     }
     return count;
 }
